@@ -1,0 +1,28 @@
+.body {
+  position: relative;
+}
+
+.main_image {
+  position: absolute;
+}
+
+.ninja_img {
+  width: 1366px;
+  height: 100vh;
+}
+
+.logo_signs {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  display: flex;
+}
+
+.logo {
+  font-size: 60px;
+  margin-right: 100px;
+}
+
+.signs {
+  font-size: 30px;
+}
