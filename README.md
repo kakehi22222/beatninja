@@ -48,10 +48,10 @@ Things you may want to cover:
 
 ### Association
 
-- has_one :score
+- has_one :game
 
 
-## scores テーブル
+## games テーブル
 
 | Column              | Type       | Options                         |
 | ------------------- | ---------- | ------------------------------- |

@@ -1,16 +1,27 @@
-<div class="body">
+<div class="index_body">
   <div class="main_image">
-    <%= image_tag "忍者.jpg", class:'ninja_img'%>
+    <%= image_tag "城と忍者.jpg", class:'ninja_img'%>
   </div>
   <div class="logo_signs">
-  <h1 class="logo">殿を守れ</h1>
-  <div class="signs">
-    <% if user_signed_in? %>
-      <%= link_to current_user.nickname, "#", class: "user-nickname" %>
-      <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout" %>
-    <% else %>
-      <%= link_to '新規登録', new_user_registration_path, class: 'sign_up' %>
-      <%= link_to 'ログイン', new_user_session_path, class: 'login' %>
-    <% end %>
+    <h1 class="logo">殿を守れ</h1>
+    <div class="operation">
+      <% if user_signed_in? %>
+        <ul class="signs">
+          <li><%= link_to current_user.nickname, "#", class: "user-nickname" %></li>
+          <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout" %></li>
+        </ul>
+      <% else %>
+        <ul class="signs">
+          <li><%= link_to '新規登録', new_user_registration_path, class: 'sign_up' %></li>
+          <li><%= link_to 'ログイン', new_user_session_path, class: 'login' %></li>
+          <li><%= link_to 'ゲストログイン', users_guest_sign_in_path, method: :post, class: 'guest_login' %></li>
+        </ul>
+      <% end %>
+    </div>
   </div>
+  <% if user_signed_in? %>
+    <div class="game_start">
+      <%= link_to 'ゲームSTART', new_game_path, class:"game_start" %>
+    </div>
+  <% end %>
 </div>

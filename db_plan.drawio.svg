@@ -1,37 +1,71 @@
-<mxfile host="65bd71144e">
-    <diagram id="ON3JSWB4enbpx4BquBav" name="ページ1">
-        <mxGraphModel dx="513" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="users テーブル" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="60" width="140" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="nickname" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2">
-                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2">
-                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="password" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="2">
-                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="scores テーブル" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="60" width="140" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6">
-                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="hi_score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6">
-                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6">
-                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4" target="8">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-</mxfile>
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="401px" height="121px" viewBox="-0.5 -0.5 401 121" content="&lt;mxfile&gt;&lt;diagram id=&quot;ON3JSWB4enbpx4BquBav&quot; name=&quot;ページ1&quot;&gt;7ZhRb9owEMc/TV4ngoGWxya03QOVpvGw7WlykyOxcHyRbQr00++cOA2pt4qJqn1BipDv7zvHvp+Tw4lYWu3vNa/LB8xBRuNRvo/YIhqPZ2xCv044tMI0Zq1QaJG3UtwLK/EMXhx5dStyMANHiyitqIdihkpBZgca1xp3Q7c1yuFda15AIKwyLkP1h8ht2arX46te/wqiKLs7x7N521PxztmvxJQ8x92RxG4jlmpE27aqfQrS5a7LSxt394/el4lpUPaUgHEb8MTl1q9ta0AbkqJbFl3TNfONJPWNeafcJH4N9tAlxuxEJbkiK1mjsivfMyI7K4XMl/yAWzcxY3m26aykRC2eyZ9L6opJoG5tPXc2GnisXKQfU4Mhn2/dauNX0gPfDxyX3NhuNiglr414bObnAiuuC6EStBYr7xQm0+f3CbSF/ZHkk3sPWIHVB3LxvVPP2W/0mTd3/a6JJ14rj3dMtz+436nFy8g9TGp4nn9nywK2SmQbxSsIuNFqbJN2jRtIUaImXWELUkj5SuJSFIpMCWsX5tIh6Om48XIl8tyNnJiaZ0IVy8ZtMemV736pTkIKX8vmISgpEGiEpEahbLP0aUIXJSMdfZlGU5prSnbc23Q5d21TVDR9LhpUQKR34GgnGi23/PFlH4ZQxydD9RTZiRTZO0CcBBCh4kJeCJ5F8NTn8D0ITgOCNTdmhzq/QDwL4vwDIc4CiAW9Ry918r3qJIs/sVBeBXBNhvpSJQdIZycj/YQqeR0QLMXvC8TzIX5koZwHEN1Z5ALwLIAfWSTjOIAFOR2cvemBlLbqyhfshf151P7l1k25aq1FV5Ua49AZKr9xR/h+QFLuhJvU28XI4FZnMPhXTdWzADt4hbgJv5lXDZJb8TT8EvAfWSOzP943fUffSNjtHw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-30-132-30-0">
+            <rect x="4" y="30" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-60-132-30-0">
+            <rect x="4" y="60" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-90-132-30-0">
+            <rect x="4" y="90" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-264-30-132-30-0">
+            <rect x="264" y="30" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-264-60-132-30-0">
+            <rect x="264" y="60" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-264-90-132-30-0">
+            <rect x="264" y="90" width="132" height="30"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 30 L 0 0 L 140 0 L 140 30" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 30 L 0 120 L 140 120 L 140 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 30 L 140 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="69.5" y="19.5">
+                users テーブル
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-30-132-30-0)" font-size="12px">
+            <text x="5.5" y="49.5">
+                nickname
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-60-132-30-0)" font-size="12px">
+            <text x="5.5" y="79.5">
+                email
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-90-132-30-0)" font-size="12px">
+            <text x="5.5" y="109.5">
+                password
+            </text>
+        </g>
+        <path d="M 260 30 L 260 0 L 400 0 L 400 30" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 260 30 L 260 120 L 400 120 L 400 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 260 30 L 400 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="329.5" y="19.5">
+                games テーブル
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-264-30-132-30-0)" font-size="12px">
+            <text x="265.5" y="49.5">
+                score
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-264-60-132-30-0)" font-size="12px">
+            <text x="265.5" y="79.5">
+                hi_score
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-264-90-132-30-0)" font-size="12px">
+            <text x="265.5" y="109.5">
+                user
+            </text>
+        </g>
+        <path d="M 140 75 L 260 75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+</svg>
