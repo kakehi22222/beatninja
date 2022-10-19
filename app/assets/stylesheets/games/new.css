@@ -1,7 +1,7 @@
 .new_body {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .game_image {
@@ -27,4 +27,19 @@
   border: solid 2px skyblue;
   border-radius: 5px;
   color: skyblue;
+}
+
+#ninja_1 {
+  position: absolute;
+  height: 110px;
+  width: auto;
+  border-radius: 10px;
+}
+
+#ninja_2 {
+  position: absolute;
+  left: 30px;
+  height: 110px;
+  width: auto;
+  border-radius: 10px;
 }
