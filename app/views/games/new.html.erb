@@ -1,3 +1,12 @@
+    <div class="game_over hidden" id="hidden">
+      <div class="game_over_image">
+        <%= image_tag "s白黒城.jpg",class:'game_over_img'%>
+      </div>
+      <div id="result_point">合計0点</div>
+      <div class="back_index">
+        <%= link_to 'トップへ戻る', root_path, class:"back_idx" %>
+      </div>
+    </div>
 <div class="new_body">
   <div class="game_image">
     <%= image_tag "s城内（廊下）.jpg", class:'ninja_img'%>
@@ -8,6 +17,7 @@
       <%= link_to "トップへ戻る", root_path %>
     </div>
   </div>
+  <div id="game_point">合計0点</div>
   <div class="ninja" id="ninjas">
     <a><%= image_tag "f忍者1", id:"ninja_1"%></a>
     <a><%= image_tag "f忍者1", id:"ninja_2"%></a>
