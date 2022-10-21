@@ -1,12 +1,12 @@
-    <div class="game_over hidden" id="hidden">
-      <div class="game_over_image">
-        <%= image_tag "s白黒城.jpg",class:'game_over_img'%>
-      </div>
-      <div id="result_point">合計0点</div>
-      <div class="back_index">
-        <%= link_to 'トップへ戻る', root_path, class:"back_idx" %>
-      </div>
-    </div>
+<div class="game_over hidden" id="hidden">
+  <div class="game_over_image">
+    <%= image_tag "s城壁（日中）.jpg",class:'game_over_img'%>
+  </div>
+  <div id="result_point">合計0点</div>
+  <div class="back_index">
+    <%= link_to 'トップへ戻る', root_path, class:"back_idx" %>
+  </div>
+</div>
 <div class="new_body">
   <div class="game_image">
     <%= image_tag "s城内（廊下）.jpg", class:'ninja_img'%>
@@ -18,8 +18,36 @@
     </div>
   </div>
   <div id="game_point">合計0点</div>
-  <div class="ninja" id="ninjas">
-    <a><%= image_tag "f忍者1", id:"ninja_1"%></a>
-    <a><%= image_tag "f忍者1", id:"ninja_2"%></a>
+  <div class="ninjas" id="ninjas">
+    <div id="ninjas_a">
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_1", id:"ninja_a_1"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_2", id:"ninja_a_2"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_3", id:"ninja_a_3"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_4", id:"ninja_a_4"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_5", id:"ninja_a_5"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_6", id:"ninja_a_6"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_7", id:"ninja_a_7"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_a a_8", id:"ninja_a_8"%></a>
+    </div>
+    <div id="ninjas_b">
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_1", id:"ninja_b_1"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_2", id:"ninja_b_2"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_3", id:"ninja_b_3"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_4", id:"ninja_b_4"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_5", id:"ninja_b_5"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_6", id:"ninja_b_6"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_7", id:"ninja_b_7"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_b b_8", id:"ninja_b_8"%></a>
+    </div>
+    <div id="ninjas_c">
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_1", id:"ninja_c_1"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_2", id:"ninja_c_2"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_3", id:"ninja_c_3"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_4", id:"ninja_c_4"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_5", id:"ninja_c_5"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_6", id:"ninja_c_6"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_7", id:"ninja_c_7"%></a>
+      <a><%= image_tag "f忍者1", class:"ninjas_c c_8", id:"ninja_c_8"%></a>
+    </div>
   </div>
 </div>
