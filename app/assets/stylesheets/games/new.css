@@ -123,7 +123,7 @@
 }
 .a_8 {
   top: -1350px;
-  left: 89%;
+  left: 86%;
 }
 
 /* 忍者B団 */
@@ -134,42 +134,42 @@
 
 .ninjas_b {
   position: absolute;
-  height: 180px;
+  height: 170px;
   width: auto;
   border-radius: 10px;
 }
 
 .b_1 {
   top: -1050px;
-  left: 10%;
+  left: 0%;
 }
 .b_2 {
   top: -500px;
-  left: 21%;
+  left: 11%;
 }
 .b_3 {
   top: -1600px;
-  left: 32%;
+  left: 22%;
 }
 .b_4 {
   top: -200px;
-  left: 43%;
+  left: 33%;
 }
 .b_5 {
-  top: -1400px;
-  left: 54%;
+  top: -1000px;
+  left: 44%;
 }
 .b_6 {
   top: -800px;
-  left: 65%;
+  left: 55%;
 }
 .b_7 {
   top: -190px;
-  left: 76%;
+  left: 66%;
 }
 .b_8 {
   top: -1250px;
-  left: 87%;
+  left: 77%;
 }
 
 /* 忍者C団 */
@@ -180,7 +180,7 @@
 
 .ninjas_c {
   position: absolute;
-  height: 250px;
+  height: 180px;
   width: auto;
   border-radius: 10px;
 }
@@ -198,7 +198,7 @@
   left: 30%;
 }
 .c_4 {
-  top: -400px;
+  top: -700px;
   left: 41%;
 }
 .c_5 {

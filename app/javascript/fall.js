@@ -15,7 +15,7 @@ function fall() {
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 15000}
+    {duration: 13000}
   );
 
     // スピードC団
