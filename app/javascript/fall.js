@@ -6,7 +6,7 @@ function fall() {
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 15000}
+    {duration: 18000}
   );
 
   // スピードB団
@@ -15,7 +15,7 @@ function fall() {
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 12000}
+    {duration: 15000}
   );
 
     // スピードC団
@@ -24,7 +24,7 @@ function fall() {
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 10000}
+    {duration: 12000}
   );
 
   // 忍者A団
@@ -151,8 +151,7 @@ function fall() {
     }, 10*1000);
 
     setTimeout(function(){
-      const resultScreen = document.getElementById("ninjas");
-      resultScreen.setAttribute("style", "display:none;");
+      ninjas.setAttribute("style", "display:none;");
       }, 10*1000);
   
   // point.addEventListener("click", (e) => {

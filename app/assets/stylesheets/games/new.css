@@ -79,54 +79,59 @@
   border-bottom: solid 2px yellow;
 }
 
-.ninjas {
+/* 忍者の大きさ分だけマイナスにすると画面外 */
+/* 忍者A団 */
+#ninjas_a {
   width: 100%;
-  height: 100vh;
   display: flex;
 }
 
-/* 忍者の大きさ分だけマイナスにすると画面外 */
-/* 忍者A団 */
 .ninjas_a {
   position: absolute;
-  height: 110px;
+  height: 130px;
   width: auto;
   border-radius: 10px;
 }
 
 .a_1 {
-  top: -110px;
+  top: -200px;
+  left: 5%;
 }
 .a_2 {
   top: -700px;
-  left: 100px;
+  left: 17%;
 }
 .a_3 {
-  top: -200px;
-  left: 200px;
+  top: -350px;
+  left: 29%;
 }
 .a_4 {
-  top: -1500px;
-  left: 300px;
+  top: -1150px;
+  left: 41%;
 }
 .a_5 {
   top: -900px;
-  left: 400px;
+  left: 53%;
 }
 .a_6 {
-  top: -2500px;
-  left: 500px;
+  top: -1000px;
+  left: 65%;
 }
 .a_7 {
-  top: -1200px;
-  left: 600px;
+  top: -450px;
+  left: 77%;
 }
 .a_8 {
-  top: -2100px;
-  left: 700px;
+  top: -1350px;
+  left: 89%;
 }
 
 /* 忍者B団 */
+#ninjas_b {
+  width: 100%;
+  display: flex;
+}
+
 .ninjas_b {
   position: absolute;
   height: 180px;
@@ -135,39 +140,44 @@
 }
 
 .b_1 {
-  top: -2800px;
-  left: 50px;
+  top: -1050px;
+  left: 10%;
 }
 .b_2 {
-  top: -400px;
-  left: 150px;
+  top: -500px;
+  left: 21%;
 }
 .b_3 {
-  top: -1800px;
-  left: 250px;
+  top: -1600px;
+  left: 32%;
 }
 .b_4 {
   top: -200px;
-  left: 350px;
+  left: 43%;
 }
 .b_5 {
   top: -1400px;
-  left: 450px;
+  left: 54%;
 }
 .b_6 {
-  top: -700px;
-  left: 550px;
+  top: -800px;
+  left: 65%;
 }
 .b_7 {
-  top: -2450px;
-  left: 650px;
+  top: -190px;
+  left: 76%;
 }
 .b_8 {
   top: -1250px;
-  left: 750px;
+  left: 87%;
 }
 
 /* 忍者C団 */
+#ninjas_c {
+  width: 100%;
+  display: flex;
+}
+
 .ninjas_c {
   position: absolute;
   height: 250px;
@@ -177,33 +187,33 @@
 
 .c_1 {
   top: -1000px;
-  left: 0px;
+  left: 8%;
 }
 .c_2 {
-  top: -3000px;
-  left: 100px;
+  top: -2100px;
+  left: 19%;
 }
 .c_3 {
-  top: -1500px;
-  left: 200px;
+  top: -1900px;
+  left: 30%;
 }
 .c_4 {
-  top: -800px;
-  left: 300px;
+  top: -400px;
+  left: 41%;
 }
 .c_5 {
-  top: -300px;
-  left: 400px;
+  top: -2300px;
+  left: 52%;
 }
 .c_6 {
-  top: -2400px;
-  left: 500px;
+  top: -1300px;
+  left: 63%;
 }
 .c_7 {
-  top: -1800px;
-  left: 600px;
+  top: -1600px;
+  left: 74%;
 }
 .c_8 {
-  top: -2750px;
-  left: 700px;
+  top: -750px;
+  left: 84%;
 }
