@@ -2,8 +2,12 @@
   <div class="main_image">
     <%= image_tag "m城と忍者.jpg", class:'ninja_img'%>
   </div>
+
+
   <div class="logo_signs">
     <h1 class="logo">殿を守れ</h1>
+      <!-- 再生プレイヤー -->
+    <div id="big"><%= audio_tag 'seisen.mp3', id:"sound"%></div>
     <div class="operation">
       <% if user_signed_in? %>
         <ul class="signs">
@@ -19,9 +23,10 @@
       <% end %>
     </div>
   </div>
+
   <% if user_signed_in? %>
     <div class="game_start">
-      <%= link_to 'ゲームSTART', new_game_path, class:"game_start" %>
+      <%= link_to 'ゲームSTART', new_game_path, class:"game_start", id:"game_start" %>
     </div>
   <% end %>
 </div>
