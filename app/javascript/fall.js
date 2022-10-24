@@ -137,7 +137,7 @@ function fall() {
   ninjas.addEventListener("click",() => {
     clickCount += 10;
     gamePoint.innerHTML = `合計${clickCount}点`;
-    resultPoint.innerHTML = `合計${clickCount}点`;
+    resultPoint.innerHTML = `総得点 ${clickCount} 点`;
     // return {
     //   clickCount
     // };

@@ -22,15 +22,17 @@
 
 .logo_signs {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 60px;
+  left: 80px;
   display: flex;
   align-items: center;
+  font-family: 'Yuji Syuku', serif;
 }
 
 .logo {
-  font-size: 60px;
+  font-size: 100px;
   margin-right: 100px;
+  font-weight: 600;
 }
 
 .signs {
@@ -38,8 +40,20 @@
   font-size: 30px;
 }
 
-.user-nickname, .logout,.sign_up,.login {
+.signs_log {
+  position: absolute;
+  width: 300px;
+  top : 30px;
+  font-size: 33px;
+}
+
+.user-nickname, .logout{
   margin: 0 40px 0 0;
+}
+
+.sign_up,.login,.guest_login {
+  padding: 5px;
+  margin-bottom: 15px;
 }
 
 .game_start {
@@ -47,4 +61,6 @@
   top: 50%;
   left: 50%;
   font-size: 50px;
+  font-family: 'Yuji Syuku', serif;
+
 }

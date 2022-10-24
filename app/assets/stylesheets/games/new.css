@@ -19,12 +19,14 @@
 
 #result_point {
   position: absolute;
-  top: 55%;
-  right: 35%;
+  top: 50%;
+  left: 32%;
   padding: 5px;
-  font-size: 50px;
-  color: blue;
-  border-bottom: solid 2px blue;
+  font-size: 70px;
+  font-weight: 900;
+  color: orangered;
+  border-bottom: solid 6px orangered;
+  font-family: 'Yuji Syuku', serif;
 }
 
 .back_idx {
@@ -32,6 +34,7 @@
   top: 20%;
   left: 35%;
   font-size: 50px;
+  font-family: 'Yuji Syuku', serif;
 }
 
 .hidden {
@@ -68,6 +71,7 @@
   border: solid 2px skyblue;
   border-radius: 5px;
   color: skyblue;
+  font-family: 'Yuji Syuku', serif;
 }
 
 #game_point {
@@ -78,6 +82,7 @@
   font-size: 25px;
   color: yellow;
   border-bottom: solid 2px yellow;
+  font-family: 'Yuji Syuku', serif;
 }
 
 /* 忍者の大きさ分だけマイナスにすると画面外 */
@@ -89,7 +94,7 @@
 
 .ninjas_a {
   position: absolute;
-  height: 130px;
+  height: 120px;
   width: auto;
   border-radius: 10px;
 }
@@ -181,7 +186,7 @@
 
 .ninjas_c {
   position: absolute;
-  height: 180px;
+  height: 170px;
   width: auto;
   border-radius: 10px;
 }

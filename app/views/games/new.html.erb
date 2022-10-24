@@ -2,7 +2,7 @@
   <div class="game_over_image">
     <%= image_tag "m城と月.jpg",class:'game_over_img'%>
   </div>
-  <div id="result_point">合計0点</div>
+  <div id="result_point">総得点 0 点</div>
   <div class="back_index">
     <%= link_to 'トップへ戻る', root_path, class:"back_idx" %>
   </div>
@@ -17,9 +17,9 @@
       <%= link_to "トップへ戻る", root_path %>
     </div>
   </div>
-  <div><%= audio_tag 'bakumatsubukyoku_hananoran.mp3', id:"geme_sound"%></div>
-  <div><%= audio_tag 'koukaon.mp3', id:"ken_sound"%></div>
-  <div><%= audio_tag 'yuruyakanakaze.mp3', id:"ending_sound"%></div>
+  <%# <div><%= audio_tag 'bakumatsubukyoku_hananoran.mp3', id:"geme_sound"</div> %>
+  <%# <div><%= audio_tag 'koukaon.mp3', id:"ken_sound"</div> %>
+  <%# <div><%= audio_tag 'yuruyakanakaze.mp3', id:"ending_sound"</div> %>
   <div id="game_point">合計0点</div>
   <div class="ninjas" id="ninjas">
     <div id="ninjas_a">
