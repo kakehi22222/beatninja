@@ -1,5 +1,5 @@
 {
-  "name": "defend_the_lord1",
+  "name":"beatninja",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",
