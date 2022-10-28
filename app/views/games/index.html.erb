@@ -15,9 +15,9 @@
         </ul>
       <% else %>
         <ul class="signs_log">
-          <li class= 'sign_up'><%= link_to '新規登録', new_user_registration_path %></li>
-          <li class= 'login'><%= link_to 'ログイン', new_user_session_path %></li>
-          <li class= 'guest_login'><%= link_to 'ゲストログイン', users_guest_sign_in_path, method: :post %></li>
+          <li class='sign_up'><%= link_to '新規登録', new_user_registration_path, class:"link_sign_up"%></li>
+          <li class='login'><%= link_to 'ログイン', new_user_session_path,class:"link_login" %></li>
+          <li class='guest_login'><%= link_to 'ゲストログイン', users_guest_sign_in_path,class:"link_guest_login", method: :post %></li>
         </ul>
       <% end %>
     </div>
@@ -25,7 +25,7 @@
 
   <% if user_signed_in? %>
     <div class="game_start">
-      <%= link_to 'ゲームSTART', new_game_path, class:"game_start", id:"game_start" %>
+      <%= link_to 'ゲームSTART', new_game_path, class:"link_game_start", id:"game_start" %>
     </div>
   <% end %>
 </div>
