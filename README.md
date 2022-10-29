@@ -1,33 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
 # アプリケーション名
 `殿を守れ`
 
 # アプリケーション概要
-`落ちてくる忍者をお城に侵入させないように倒す落ちゲー`
+`殿様の命を狙って城に侵入してくる忍者を倒すゲーム`
+
+# Ruby version
+`ruby '2.6.5'`
 
 # DB設計
 ![db_plan.drawio](db_plan.drawio.svg)
