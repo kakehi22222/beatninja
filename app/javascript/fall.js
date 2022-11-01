@@ -148,11 +148,9 @@ function fall() {
     // window.location.href = '/results';
     const resultScreen = document.getElementById("hidden");
     resultScreen.setAttribute("style", "display:block;");
-    }, 10*1000);
+    ninjas.setAttribute("style", "display:none;");
+  }, 10*1000);
 
-    setTimeout(function(){
-      ninjas.setAttribute("style", "display:none;");
-      }, 10*1000);
   
   // point.addEventListener("click", (e) => {
   //   e.preventDefault();
