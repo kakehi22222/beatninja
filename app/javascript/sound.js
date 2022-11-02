@@ -15,4 +15,4 @@ function sound() {
 //   //   gameSound.play();
 //   //   }, 1*1000);
 };
-  window.addEventListener('load', sound)
+  if(document.URL.match(/new/)){window.addEventListener('load', sound)};
