@@ -83,28 +83,65 @@
 .sign_up_btn {
   margin: 15px 0 23px;
   padding: 8px 13px;
+  height: 45px;
   font-family: 'Yuji Syuku', serif;
+  border: 1px solid dimgray;
   border-radius: 8px;
+  box-shadow: 1.5px 1.5px 1.5px black;
   font-size: 16px;
   background-color: gray;
 }
 
 .sign_up_btn:hover {
+  border: 1px solid black;
+  color: maroon;
   background-color: gainsboro;
-  color: darkblue;
+  font-size: 18px;
 }
 
 .reg_new_move_btn {
   display: flex;
   justify-content: space-between;
+  font-size: 16px;
 }
 
-.reg_new_rogin {
-  border: 1px solid gray;
+.reg_new_login {
+  position: absolute;
+  left: 20px;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  border: 1px solid dimgray;
   text-decoration: none;
+  padding: 8px;
+  color: dimgray;
+  background-color: rgb(226, 192, 2);
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.reg_new_login:hover {
+  color: black;
+  background-color: khaki;
+  border: 1px solid black;
+  font-size: 18px;
 }
 
 .new_back_main {
-  border: 1px solid black;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  border: 1px solid darkslategray;
   text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+  color: khaki;
+  background-color: teal;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.new_back_main:hover {
+  font-size: 17px;
+  background-color: rgb(52, 155, 98);
 }
