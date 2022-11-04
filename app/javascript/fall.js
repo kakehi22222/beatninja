@@ -134,12 +134,13 @@ function fall() {
   const resultPoint = document.getElementById("result_point");
   const ninjas =document.getElementById("ninjas");
   let clickCount = 0
-  ninjas.addEventListener("click",() => {
+  function countUp(){
     clickCount += 10;
     gamePoint.innerHTML = `合計${clickCount}点`;
     resultPoint.innerHTML = `総得点 ${clickCount} 点`;
-    console.log(clickCount)
-  });
+    return clickCount;
+  };
+  ninjas.addEventListener("click",countUp);
 
 // 結果表示
   setTimeout(function(){
