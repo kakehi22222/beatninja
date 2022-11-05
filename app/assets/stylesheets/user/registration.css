@@ -145,3 +145,8 @@
   font-size: 17px;
   background-color: rgb(52, 155, 98);
 }
+
+#error_explanation {
+  color: rgb(203, 38, 38);
+  font-size: 15px;
+}
