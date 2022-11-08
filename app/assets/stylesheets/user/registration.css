@@ -113,16 +113,16 @@
 
 .reg_new_login {
   position: absolute;
-  left: 10px;
+  left: 0;
   width: 130px;
   height: 35px;
   text-align: center;
   border: 1px solid dimgray;
   text-decoration: none;
-  padding: 8px;
+  padding: 8px 3px;
   color: dimgray;
   background-color: rgb(226, 192, 2);
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 1.5px 1.5px 1.5px black;
 }
 
@@ -131,8 +131,6 @@
   background-color: khaki;
   border: 1px solid black;
   font-size: 17px;
-  width: 140px;
-  left:5px;
 }
 
 .new_back_main {
@@ -141,11 +139,11 @@
   text-align: center;
   border: 1px solid darkslategray;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 0;
   padding: 8px;
   color: khaki;
   background-color: teal;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 1.5px 1.5px 1.5px black;
 }
 

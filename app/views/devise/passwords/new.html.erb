@@ -1,16 +1,28 @@
-<h2>Forgot your password?</h2>
+<div class="body">
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
-  <%= render "devise/shared/error_messages", resource: resource %>
-
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  <div class="forget_main_image">
+    <%= image_tag "s1城壁（日中）.jpg"%>
   </div>
 
-  <div class="actions">
-    <%= f.submit "Send me reset password instructions" %>
-  </div>
-<% end %>
+  <div class="forget_form">
+    <div class="forget_login_pass">パスワード再設定</div>
 
-<%= render "devise/shared/links" %>
+    <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+      <%= render "devise/shared/error_messages", resource: resource %>
+
+      <div class="field">
+        <div class='form-text-wrap'>
+          <%= f.label :email, class:"forget_form-text_email" %><br />
+        </div>
+        <%= f.email_field :email,class:"input_forget_email" ,autofocus: true, autocomplete: "email" %>
+      </div>
+
+      <div class="mail_resend">
+        <%= f.submit "Send me reset password instructions" %>
+      </div>
+    <% end %>
+    <div class="back_sign">
+      <%= render "devise/shared/links" %>
+    </div>
+  </div>
+</div>
