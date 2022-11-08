@@ -56,27 +56,37 @@ font-size: 19px;
 }
 
 .ses_move_signup {
-  margin: 15px 0 23px;
-  padding: 8px 13px;
+  margin: 15px 0 30px;
   width: 150px;
   height: 45px;
   text-align: center;
   border: 1px solid dimgray;
   border-radius: 8px;
   box-shadow: 1.5px 1.5px 1.5px black;
-  background-color: gray;
+  background-color: rgb(242, 138, 100);
+}
+
+.ses_move_signup:hover {
+  background-color: tomato;
 }
 
 .ses_move_signup_btn {
+  padding: 10px 10px;
+  border-radius: 8px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
+  color: rgb(62, 8, 8);
+  line-height: 43px;
+  align-items: center;
+}
+
+.ses_move_signup_btn:hover {
+  font-size: 18px;
   color: black;
 }
 
 
 .ses_forget_pass {
-  margin: 15px 0 23px;
-  padding: 8px 13px;
   width: 220px;
   height: 45px;
   text-align: center;
@@ -87,7 +97,14 @@ font-size: 19px;
 }
 
 .ses_forget_pass_btn {
+  padding: 10px 10px;
+  border-radius: 8px;
+  line-height: 45px;
   text-decoration: none;
   font-size: 16px;
   color: black;
+}
+
+.ses_forget_pass:hover {
+  background-color: aliceblue;
 }
