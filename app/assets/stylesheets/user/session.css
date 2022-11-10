@@ -31,7 +31,7 @@ font-size: 19px;
 
 
 .ses_login_actions {
-  margin-bottom: 30px ;
+  margin-bottom: 20px ;
 }
 
 /* リンクの編集 */
@@ -58,7 +58,7 @@ font-size: 19px;
 }
 
 .ses_move_signup {
-  margin: 15px 0 30px;
+  margin: 15px 0 20px;
   width: 150px;
   height: 45px;
   text-align: center;
@@ -113,7 +113,7 @@ font-size: 19px;
 /* リンク編集ここまで */
 
 .signup_and_foget {
-  height: 180px;
+  height: 160px;
 }
 
 .login_back_main_btn {
