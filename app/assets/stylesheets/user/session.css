@@ -34,6 +34,8 @@ font-size: 19px;
   margin-bottom: 30px ;
 }
 
+/* リンクの編集 */
+
 .ses_login_btn {
   width: 120px;
   height: 45px;
@@ -107,4 +109,28 @@ font-size: 19px;
 
 .ses_forget_pass:hover {
   background-color: aliceblue;
+}
+/* リンク編集ここまで */
+
+.signup_and_foget {
+  height: 180px;
+}
+
+.login_back_main_btn {
+  height: 35px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid darkslategray;
+  text-decoration: none;
+  padding: 8px;
+  color: khaki;
+  background-color: teal;
+  border-radius: 8px;
+  box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.login_back_main_btn:hover {
+  font-size: 17px;
+  padding: 8px 5px;
+  background-color: rgb(52, 155, 98);
 }

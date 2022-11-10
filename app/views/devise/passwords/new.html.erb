@@ -11,7 +11,7 @@
       <%= render "devise/shared/error_messages", resource: resource %>
 
       <div class="field">
-        <div class='form-text-wrap'>
+        <div class='forget_form-text-wrap'>
           <%= f.label :email, class:"forget_form-text_email" %><br />
         </div>
         <%= f.email_field :email,class:"input_forget_email" ,autofocus: true, autocomplete: "email" %>
@@ -24,5 +24,6 @@
     <div class="back_sign">
       <%= render "devise/shared/links" %>
     </div>
+        <%= link_to "トップへ戻る" ,root_path ,class:"forget_back_main_btn"%>
   </div>
 </div>

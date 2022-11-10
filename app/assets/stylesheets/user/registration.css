@@ -133,9 +133,10 @@
   font-size: 17px;
 }
 
-.new_back_main {
+.back_main_btn {
   width: 130px;
   height: 35px;
+  font-size: 16px;
   text-align: center;
   border: 1px solid darkslategray;
   text-decoration: none;
@@ -147,7 +148,7 @@
   box-shadow: 1.5px 1.5px 1.5px black;
 }
 
-.new_back_main:hover {
+.back_main_btn:hover {
   font-size: 17px;
   background-color: rgb(52, 155, 98);
 }
