@@ -19,7 +19,7 @@
 
 #result_point {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translateX(-50%);
   padding: 5px;
@@ -100,6 +100,33 @@
 
 .link_back_idx:hover {
   color: rgb(197, 80, 193);
+}
+
+.url_image {
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+  font-size: 17px;
+  font-family: 'Yuji Syuku', serif;
+  width: 230px;
+  height: 120px;
+  padding: 15px 15px 10px;
+  text-align: center;
+  background-color: ghostwhite;
+  border-radius: 20px;
+}
+
+.twitter_img {
+  width: 62px;
+  height: 62px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.insta_img {
+  width: 62px;
+  height: 62px;
+  margin-top: 10px;
 }
 
 .hidden {

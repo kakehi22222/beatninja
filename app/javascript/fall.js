@@ -146,10 +146,16 @@ function fall() {
   setTimeout(function(){
     // window.location.href = '/results';
     const resultScreen = document.getElementById("hidden");
-    resultScreen.setAttribute("style", "display:block;");
+    resultScreen.setAttribute("style","display:block;" );
     ninjas.setAttribute("style", "display:none;");
   }, 10*1000);
 
+  // setTimeout(function(){
+  //   const gameScreen = document.getElementById("game_image");
+  //   gameScreen.setAttribute("style","display:none;");
+  // }, 10*1000);
+
+  
   
   // point.addEventListener("click", (e) => {
   //   e.preventDefault();
