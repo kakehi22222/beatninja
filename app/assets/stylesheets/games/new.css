@@ -113,7 +113,7 @@
   padding: 15px 15px 10px;
   text-align: center;
   background-color: ghostwhite;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .twitter_img {
@@ -157,9 +157,9 @@
   justify-content: space-between;
 }
 
-#last_time {
+.last_time {
   font-family: 'Yuji Syuku', serif;
-  font-size: 35px;
+  font-size: 28px;
   color: orange;
 }
 
