@@ -161,14 +161,12 @@ function fall() {
   setTimeout(function(){
     // window.location.href = '/results';
     const resultScreen = document.getElementById("hidden");
+    const deleteScreen = document.getElementById("delete_screen");
     resultScreen.setAttribute("style","display:block;" );
     ninjas.setAttribute("style", "display:none;");
+    deleteScreen.setAttribute("style","display:none;");
   }, 10*1000);
 
-  setTimeout(function(){
-    const gameScreen = document.getElementById("game_image");
-    gameScreen.setAttribute("style","display:none;");
-  }, 10*1000);
 
   
   
