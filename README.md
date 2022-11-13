@@ -18,14 +18,13 @@ https://enemyinvasion22222.herokuapp.com/
 https://user-images.githubusercontent.com/112855899/199379555-5c5078da-d2b5-4d56-83dc-83d9eb4cbf6f.mp4
 
 # 実装予定機能
-・制限時間の表示　・点数のランキング機能<br>
+・点数のランキング機能<br>
 ・週毎のランキングリセット機能　・ゲーム難易度の設定<br>
 ・BGMの導入　・キャラと落下スピードのランダム化<br>
 ・キャラ毎、スピード毎に点数を変えること<br>
 ・ゲーム中に離脱しようとする際に「本当に戻りますか？」の<br>
-　ポップアップを表示する機能<br>
-・Twitter・インスタに投稿できるようにロゴクリックでURLへ<br>
-　遷移する機能
+　ポップアップを表示する機能
+
 
 # DB設計
 ![db_plan.drawio](db_plan.drawio.svg)
