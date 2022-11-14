@@ -15,7 +15,7 @@
 https://enemyinvasion22222.herokuapp.com/
 
 # ゲームプレーGIF
-https://user-images.githubusercontent.com/112855899/199379555-5c5078da-d2b5-4d56-83dc-83d9eb4cbf6f.mp4
+https://user-images.githubusercontent.com/112855899/201569544-c6bfe930-e4b4-4cdf-be88-658661e7343d.mp4
 
 # 実装予定機能
 ・点数のランキング機能<br>
