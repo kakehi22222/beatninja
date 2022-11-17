@@ -13,6 +13,7 @@ async function loadAndPlay() {
   source.buffer = decodeBuffer;
   source.connect(context.destination);
   source.start(0)
+  // source.loop = true;
 }
 
 function stop() {

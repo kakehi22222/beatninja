@@ -1,45 +1,44 @@
 function fall() {
 
-  const totalTime = 10000;
-  const oldTime = Date.now();
-  const timerId = setInterval(() => {
-    const currentTime = Date.now();
-    const diff = currentTime - oldTime;
-    const remainMSec = totalTime - diff;
-    const remainSec = Math.ceil(remainMSec/1000);
-    let label = `${remainSec}`
-    if (remainMSec <= 0) {
-      clearInterval(timerId);
-      label = '0';
-    }
-    document.querySelector('#last_time_s').innerHTML = label
-  },1000);
+  // ポップアップの表示
+  // const gameRetire = document.getElementById("game_retire")
+  // gameRetire.addEventListener('click',(e) =>{
+  //   const response = window.confirm('本当に戻りますか？');
+  //   if(response) {
+  //   }
+  //   else {
+  //     e.preventDefault();
+  //   };
+  // })
 
   // スピードA団
+  const random1 = Math.floor( Math.random() * 2000 ) + 17000;
   document.querySelector(`#ninjas_a`).animate(
     [
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 18000}
+    {duration: random1}
   );
 
   // スピードB団
+  const random2 = Math.floor( Math.random() * 2000 ) + 13000;
   document.querySelector(`#ninjas_b`).animate(
     [
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 13000}
+    {duration: random2}
   );
 
     // スピードC団
-  document.querySelector(`#ninjas_c`).animate(
+    const random3 = Math.floor( Math.random() * 2000 ) + 11000;
+    document.querySelector(`#ninjas_c`).animate(
     [
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
-    {duration: 12000}
+    {duration: random3}
   );
 
   // 忍者A団
