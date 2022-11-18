@@ -1,18 +1,15 @@
 function sound() {
-//     // const music = document.getElementById("big");
-//     // const sound = document.getElementById("sound");
-//     // music.addEventListener('click', function(){
-//     //   sound.play();
-//     //   }); 
       const ninjas = document.getElementById("ninjas");
       const kenSound = document.getElementById("ken_sound");
       ninjas.addEventListener('click', function(){
         kenSound.play();
-        kenSound.volume = 0.5;
+        kenSound.volume = 0.3;
         });
-//   // const gameSound = document.getElementById("game_sound");
-//   // setTimeout(function(){
-//   //   gameSound.play();
-//   //   }, 1*1000);
-};
+        const endingSound = document.getElementById("ending_sound");
+        const resultPoint = document.getElementById("result_point");
+        resultPoint.addEventListener('click',function(){
+          endingSound.play();
+          endingSound.volume = 0.3;
+        })
+      };
   if(document.URL.match(/new/)){window.addEventListener('load', sound)};
