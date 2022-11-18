@@ -141,6 +141,56 @@
   height: 100vh;
 }
 
+/* スタート前 */
+.fusuma_left {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+	animation-name:start-left;	/* アニメーション名の指定 */
+	/* animation-delay:0.2s;		アニメーションの開始時間指定 */
+	animation-duration: 1.2s;	/*アニメーション動作時間の指定*/
+	animation-timing-function: ease-in;
+	/* アニメーションの動き指定（徐々に早く）*/
+	/* animation-iteration-count: infinite; */
+	/* アニメーションの無限繰り返しの指定 */
+}
+
+@keyframes start-left {
+  0% {
+      left: 0%;
+  }
+
+  100% {
+      left: -50%;
+  }
+}
+
+.fusuma_right {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
+}
+
+.sound_start {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.no_sound_start {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+
 .game_image {
   position: absolute;
   opacity: 65%;

@@ -11,7 +11,12 @@
     <%= link_to image_tag( "instalogo.png" ,class:"insta_img",alt:"インスタ") ,"https://www.instagram.com/" , target: :_blank, rel:"noopener noreferrer" %>
   </div>
 </div>
+
 <div class="new_body" id="delete_screen">
+  <%# <div><%= audio_tag 'bakumatsubukyoku_hananoran.mp3', id:"geme_sound"</div> %>
+  <div><%= audio_tag 'koukaon.mp3', id:"ken_sound"%></div>
+  <div><%= audio_tag 'yuruyakanakaze.mp3', id:"ending_sound"%></div>
+
   <div class="game_image">
     <%= image_tag "s城内（廊下）.jpg", class:'ninja_img'%>
   </div>
@@ -21,10 +26,18 @@
       <%= link_to "トップへ戻る", root_path ,id:"game_retire"%>
     </div>
   </div>
-  <%# <div><%= audio_tag 'bakumatsubukyoku_hananoran.mp3', id:"geme_sound"</div> %>
-  <div><%= audio_tag 'koukaon.mp3', id:"ken_sound"%></div>
-  <div><%= audio_tag 'yuruyakanakaze.mp3', id:"ending_sound"%></div>
   <div id="game_point">合計0点</div>
+
+  <div class="before_start">
+    <div class="before_start_image">
+      <%= image_tag "襖１左.jpg", class:'fusuma_left' %>
+      <%= image_tag "襖１右.jpg", class:'fusuma_right' %>
+    </div>
+    <div class="push_start">
+      <a class="sound_start">音ありでプレイ</a>
+      <a class="no_sound_start">無音でプレイ</a>
+  </div>
+
   <div class="ninjas" id="ninjas">
     <div id="ninjas_a">
       <a><%= image_tag "f忍者7.png", class:"ninjas_a a_1", id:"ninja_a_1"%></a>
