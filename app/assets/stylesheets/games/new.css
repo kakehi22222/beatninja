@@ -179,8 +179,6 @@
 	/* アニメーションの無限繰り返しの指定 */
 }
 
-
-
 @keyframes start-right {
   0% {
       left: 50%;
@@ -205,6 +203,11 @@
   background-color: blue;
   border: 1px solid black;
   border-radius: 10px;
+  transition-property :all 1s;
+}
+
+.no_sound_start:hover ~ .sound_start {
+  left: -50%;
 }
 
 .no_sound_start {
