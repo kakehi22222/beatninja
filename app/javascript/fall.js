@@ -179,5 +179,4 @@ function fall() {
 
 
 };
-  
   if(document.URL.match(/new/)){window.addEventListener('load', fall)};

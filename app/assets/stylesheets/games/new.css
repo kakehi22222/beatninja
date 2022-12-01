@@ -146,23 +146,6 @@
   position: absolute;
   width: 50%;
   height: 100vh;
-	animation-name:start-left;	/* アニメーション名の指定 */
-	/* animation-delay:0.2s;		アニメーションの開始時間指定 */
-	animation-duration: 1.2s;	/*アニメーション動作時間の指定*/
-	animation-timing-function: ease-in;
-	/* アニメーションの動き指定（徐々に早く）*/
-	/* animation-iteration-count: infinite; */
-	/* アニメーションの無限繰り返しの指定 */
-}
-
-@keyframes start-left {
-  0% {
-      left: 0%;
-  }
-
-  100% {
-      left: -50%;
-  }
 }
 
 .fusuma_right {
@@ -170,23 +153,6 @@
   left: 50%;
   width: 50%;
   height: 100vh;
-	animation-name:start-right;	/* アニメーション名の指定 */
-	/* animation-delay:0.2s;		アニメーションの開始時間指定 */
-	animation-duration: 1.2s;	/*アニメーション動作時間の指定*/
-	animation-timing-function: ease-in;
-	/* アニメーションの動き指定（徐々に早く）*/
-	/* animation-iteration-count: infinite; */
-	/* アニメーションの無限繰り返しの指定 */
-}
-
-@keyframes start-right {
-  0% {
-      left: 50%;
-  }
-
-  100% {
-      left: 100%;
-  }
 }
 
 .push_start {
