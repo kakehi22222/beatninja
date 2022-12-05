@@ -18,9 +18,20 @@ function gamestart() {
   );
   openRight.pause();
 
+  const soundStart = document.getElementById("sound_start")
+  const noSoundStart =document.getElementById("no_sound_start")
   document.querySelector(`.sound_start`).addEventListener('click', () => {
     openLeft.play();
     openRight.play();
+    soundStart.remove();
+    noSoundStart.remove();
+  });
+
+  document.querySelector(`.no_sound_start`).addEventListener('click', () => {
+    openLeft.play();
+    openRight.play();
+    soundStart.remove();
+    noSoundStart.remove();
   });
 };
 if(document.URL.match(/new/)){window.addEventListener('load', gamestart)};

@@ -13,7 +13,7 @@
 </div>
 
 <div class="new_body" id="delete_screen">
-  <%# <div><%= audio_tag 'bakumatsubukyoku_hananoran.mp3', id:"geme_sound"</div> %>
+  <div><%= audio_tag 'bakumatsubukyoku_hananoran.mp3', id:"geme_sound"%></div>
   <div><%= audio_tag 'koukaon.mp3', id:"ken_sound"%></div>
   <div><%= audio_tag 'yuruyakanakaze.mp3', id:"ending_sound"%></div>
 
@@ -28,16 +28,16 @@
   </div>
   <div id="game_point">合計0点</div>
 
-  <%# <div class="before_start"> %>
-    <%# <div class="before_start_image"> %>
-      <%#= image_tag "襖１左.jpg", class:'fusuma_left' %>
-      <%#= image_tag "襖１右.jpg", class:'fusuma_right' %>
-    <%# </div> %>
-    <%# <div class="push_start"> %>
-      <%# <a class="sound_start">音ありでプレイ</a> %>
-      <%# <a class="no_sound_start">無音でプレイ</a> %>
-    <%# </div> %>
-  <%# </div> %>
+  <div class="before_start">
+    <div class="before_start_image">
+      <%= image_tag "襖１左.jpg", class:'fusuma_left' %>
+      <%= image_tag "襖１右.jpg", class:'fusuma_right' %>
+    </div> 
+    <div class="push_start">
+      <a class="sound_start" id="sound_start">音有りでプレイ</a>
+      <a class="no_sound_start" id="no_sound_start">無音でプレイ</a>
+    </div>
+  </div>
 
   <div class="ninjas" id="ninjas">
     <div id="ninjas_a">

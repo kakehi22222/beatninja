@@ -13,33 +13,47 @@ function fall() {
 
   // スピードA団
   const random1 = Math.floor( Math.random() * 2000 ) + 17000;
-  document.querySelector(`#ninjas_a`).animate(
+  const ninjas_A = document.querySelector(`#ninjas_a`).animate(
     [
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
     {duration: random1}
   );
+  ninjas_A.pause();
 
   // スピードB団
   const random2 = Math.floor( Math.random() * 2000 ) + 13000;
-  document.querySelector(`#ninjas_b`).animate(
+  const ninjas_B = document.querySelector(`#ninjas_b`).animate(
     [
       { transform: 'translateY(0)' },
       { transform: 'translateY(3000px)' }
     ],
     {duration: random2}
   );
+  ninjas_B.pause();
 
-    // スピードC団
-    const random3 = Math.floor( Math.random() * 2000 ) + 11000;
-    document.querySelector(`#ninjas_c`).animate(
-    [
-      { transform: 'translateY(0)' },
-      { transform: 'translateY(3000px)' }
-    ],
+  // スピードC団
+  const random3 = Math.floor( Math.random() * 2000 ) + 11000;
+  const ninjas_C = document.querySelector(`#ninjas_c`).animate(
+  [
+    { transform: 'translateY(0)' },
+    { transform: 'translateY(3000px)' }
+  ],
     {duration: random3}
   );
+  ninjas_C.pause();
+
+  document.querySelector(`.sound_start`).addEventListener('click', () => {
+    ninjas_A.play();
+    ninjas_B.play();
+    ninjas_C.play();
+  });
+  document.querySelector(`.no_sound_start`).addEventListener('click', () => {
+    ninjas_A.play();
+    ninjas_B.play();
+    ninjas_C.play();
+  });
 
   // 忍者A団
   const ninjaA1 = document.getElementById("ninja_a_1");
@@ -155,17 +169,6 @@ function fall() {
     return clickCount;
   };
   ninjas.addEventListener("click",countUp);
-
-// 結果表示
-  setTimeout(function(){
-    // window.location.href = '/results';
-    const resultScreen = document.getElementById("hidden");
-    const deleteScreen = document.getElementById("delete_screen");
-    resultScreen.setAttribute("style","display:block;" );
-    ninjas.setAttribute("style", "display:none;");
-    deleteScreen.setAttribute("style","display:none;");
-  }, 10*1000);
-
 
   
   
