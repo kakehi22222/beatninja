@@ -19,7 +19,7 @@ development:
   username: root
   password:
   host: localhost
-  database: ajax_app_development
+  database: enemyinvasion22222_development
 
 test:
   <<: *default
@@ -27,7 +27,7 @@ test:
   username: root
   password:
   host: localhost
-  database: ajax_app_test
+  database: enemyinvasion22222_test
 
 production:
   <<: *default

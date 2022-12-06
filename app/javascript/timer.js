@@ -55,5 +55,7 @@ function timer() {
       deleteScreen.setAttribute("style","display:none;");
     }, 10*1000);
   })
+
+
 };
   if(document.URL.match(/new/)){window.addEventListener('load', timer)};
