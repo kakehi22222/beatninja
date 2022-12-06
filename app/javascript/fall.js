@@ -166,9 +166,9 @@ function fall() {
     clickCount += 10;
     gamePoint.innerHTML = `合計${clickCount}点`;
     resultPoint.innerHTML = `総得点 ${clickCount} 点`;
-    const XHR = new XMLHttpRequest();
-    XHR.open("POST", "/games", true);
-    XHR.send(clickCount);
+    // const XHR = new XMLHttpRequest();
+    // XHR.open("POST", "/games", true);
+    // XHR.send(clickCount);
     console.log(clickCount)
   };
   ninjas.addEventListener("click",countUp);
