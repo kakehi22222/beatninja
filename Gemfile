@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.2'
+ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.0.4'
@@ -67,3 +67,6 @@ group :production do
   gem 'pg'
 end
 gem 'psych', '~> 3.1'
+group :production do
+  gem 'unicorn', '5.4.1'
+end
