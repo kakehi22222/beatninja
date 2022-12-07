@@ -167,7 +167,6 @@ GEM
       ast (~> 2.4.1)
     payjp (0.0.10)
       rest-client (~> 2.0)
-    pg (1.4.5)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -333,7 +332,6 @@ DEPENDENCIES
   mini_magick
   mysql2 (>= 0.5.4)
   payjp
-  pg
   pry-rails
   psych (~> 3.1)
   puma (~> 3.11)

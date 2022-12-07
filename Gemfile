@@ -63,9 +63,6 @@ gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
 gem 'audiojs-rails'
 gem 'rename'
-group :production do
-  gem 'pg'
-end
 gem 'psych', '~> 3.1'
 group :production do
   gem 'unicorn', '5.4.1'
